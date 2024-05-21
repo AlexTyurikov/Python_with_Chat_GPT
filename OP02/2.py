@@ -10,4 +10,6 @@ print('в начало списка добавлены три элемента: 
 my_list.insert(0, 1)
 my_list.insert(1, 2)
 my_list.insert(2, 3)
+my_list.reverse()
 print('результат: my_list = ', my_list)
+print('результат: инверсированный my_list = ', my_list)
