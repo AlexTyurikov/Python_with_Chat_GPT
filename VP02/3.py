@@ -18,7 +18,7 @@ def caesar_decrypt(text, shift):
     return caesar_encrypt(text, -shift)
 
 # Пример использования
-text_to_encrypt = input('Введите шифрования: ')
+text_to_encrypt = input('Введите для шифрования: ')
 
 print('Текст для шифрования:', text_to_encrypt)
 
